@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+델리게이트 사용 예제
+출처 : 박상현, 뇌를 자극하는 C# 4.0 프로그래밍, 386~387쪽
+*/
 namespace UsingCallback
 {
     delegate int Compare(int a, int b);
